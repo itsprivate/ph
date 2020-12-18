@@ -22,8 +22,7 @@ if (isDev) {
         "data/tweet-placeholder/1.json",
         "data/hn-placeholder/1.json",
         "data/ph-placeholder/1.json",
-        "data/reddit-top/**",
-        "data/reddit-top-issues/**",
+        "data/ph-top/**",
       ],
     },
   });
@@ -40,8 +39,7 @@ if (isDev) {
         "data/tweet-placeholder/1.json",
         "data/hn-placeholder/1.json",
         "data/ph-placeholder/1.json",
-        "data/reddit-top/**",
-        "data/reddit-top-issues/**",
+        "data/ph-top/**",
       ],
     },
   });
@@ -55,18 +53,18 @@ plugins = plugins.concat([
       issueTypeName: ["RedditTopIssuesJson"],
       localesPath: localesPath,
       disqus: {
-        shortname: "reddit-top",
+        shortname: "buzzing-on-ph",
       },
     },
   },
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Reddit热门`,
-      short_name: `Reddit热门`,
+      name: `Product Hunt 热门`,
+      short_name: `PH热门`,
       start_url: `/`,
       lang: `zh`,
-      description: `用中文浏览Reddit热门内容`,
+      description: `用中文浏览 Product Hunt 热门App，网站和产品`,
       background_color: `#f7f0eb`,
       theme_color: `#FF4500`,
       display: `standalone`,
@@ -75,16 +73,16 @@ plugins = plugins.concat([
         {
           start_url: `/en/`,
           lang: `en`,
-          name: `Reddit Top`,
-          short_name: `RedditTop`,
-          description: `See what's buzzing on Reddit in your native language`,
+          name: `Product Hunt Top`,
+          short_name: `PH-Top`,
+          description: `See what's buzzing on Product Hunt in your native language`,
         },
         {
           start_url: `/zh-Hant/`,
           lang: `zh-Hant`,
-          name: `Reddit熱門`,
-          short_name: `Reddit熱門`,
-          description: `用中文查看 Reddit 上的熱門內容`,
+          name: `Product Hunt熱門`,
+          short_name: `PH熱門`,
+          description: `用中文查看 Product Hunt 上的熱門內容`,
         },
       ],
     },
@@ -94,7 +92,7 @@ plugins = plugins.concat([
     options: {
       // You can add multiple tracking ids and a pageview event will be fired for all of them.
       trackingIds: [
-        "G-GQVR44BC8T", // Google Analytics / GA
+        "G-Q1KVDYZJD1", // Google Analytics / GA
       ],
     },
   },
@@ -102,16 +100,12 @@ plugins = plugins.concat([
 module.exports = {
   plugins: plugins,
   siteMetadata: {
-    title: `Buzzing on Reddit`,
-    author: `Reddit`,
-    description: `See what's buzzing on Reddit in your native language`,
-    keywords: ["Reddit", "buzzing"],
-    siteUrl: "https://reddit.buzzing.cc",
+    title: `Buzzing on Product Hunt`,
+    author: `Product Hunt`,
+    description: `See what's buzzing on Product Hunt in your native language`,
+    keywords: ["Product Hunt", "buzzing"],
+    siteUrl: "https://ph.buzzing.cc",
     menuLinks: [
-      {
-        name: "Weekly Selection",
-        url: "/issues",
-      },
       {
         name: "RSS",
         url: "/rss.xml",
@@ -120,8 +114,8 @@ module.exports = {
     ],
     social: [
       {
-        name: `Reddit`,
-        url: `https://www.reddit.com/`,
+        name: `Product Hunt`,
+        url: `https://www.producthunt.com/`,
         external: true,
       },
     ],

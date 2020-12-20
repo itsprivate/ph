@@ -27,6 +27,13 @@ const siteMetadata = {
       shortTitle: "BuzzPH",
       description: `See what's buzzing on Product Hunt in your native language`,
       keywords: ["Product Hunt", "buzzing", "explore APP"],
+      menuLinks: [
+        {
+          name: "RSS",
+          url: "/en/rss.xml",
+          prefetch: false,
+        },
+      ],
     },
     {
       locale: "zh-Hant",
@@ -34,6 +41,13 @@ const siteMetadata = {
       shortTitle: "PH熱門",
       description: "用中文瀏覽 Product Hunt 熱門App，網站和產品",
       keywords: ["buzzing", "Product Hunt", "熱門APP", "發現APP"],
+      menuLinks: [
+        {
+          name: "RSS",
+          url: "/zh-Hant/rss.xml",
+          prefetch: false,
+        },
+      ],
     },
   ],
 };

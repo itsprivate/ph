@@ -1,3 +1,4 @@
+const { siteMetadata } = require("./config");
 const isDev =
   (process.env.NODE_ENV === "development" || process.env.LOCAL === "true") &&
   process.env.LOCAL !== "false";
@@ -60,31 +61,24 @@ plugins = plugins.concat([
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Product Hunt 热门`,
-      short_name: `PH热门`,
+      name: siteMetadata.title,
+      short_name: siteMetadata.shortTitle,
       start_url: `/`,
-      lang: `zh`,
-      description: `用中文浏览 Product Hunt 热门App，网站和产品`,
+      lang: siteMetadata.locale,
+      description: siteMetadata.description,
       background_color: `#f7f0eb`,
-      theme_color: `#FF4500`,
+      theme_color: `#DA552F`,
       display: `standalone`,
       icon: `src/images/icon.png`,
-      localize: [
-        {
-          start_url: `/en/`,
-          lang: `en`,
-          name: `Product Hunt Top`,
-          short_name: `PH-Top`,
-          description: `See what's buzzing on Product Hunt in your native language`,
-        },
-        {
-          start_url: `/zh-Hant/`,
-          lang: `zh-Hant`,
-          name: `Product Hunt熱門`,
-          short_name: `PH熱門`,
-          description: `用中文查看 Product Hunt 上的熱門內容`,
-        },
-      ],
+      localize: siteMetadata.localize.map((item) => {
+        return {
+          start_url: `/${item.locale}/`,
+          lang: item.locale,
+          name: item.title,
+          short_name: item.shortTitle,
+          description: item.description,
+        };
+      }),
     },
   },
   {
@@ -98,26 +92,7 @@ plugins = plugins.concat([
   },
 ]);
 module.exports = {
+  flags: { QUERY_ON_DEMAND: true },
   plugins: plugins,
-  siteMetadata: {
-    title: `Buzzing on Product Hunt`,
-    author: `Product Hunt`,
-    description: `See what's buzzing on Product Hunt in your native language`,
-    keywords: ["Product Hunt", "buzzing"],
-    siteUrl: "https://ph.buzzing.cc",
-    menuLinks: [
-      {
-        name: "RSS",
-        url: "/rss.xml",
-        prefetch: false,
-      },
-    ],
-    social: [
-      {
-        name: `Product Hunt`,
-        url: `https://www.producthunt.com/`,
-        external: true,
-      },
-    ],
-  },
+  siteMetadata,
 };

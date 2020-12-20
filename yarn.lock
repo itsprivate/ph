@@ -7005,17 +7005,17 @@ gatsby-theme-blog-core@^2.0.2:
     gatsby-transformer-sharp "^2.5.11"
     remark-slug "^5.1.2"
 
-gatsby-theme-buzzing@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.npmjs.org/gatsby-theme-buzzing/-/gatsby-theme-buzzing-0.11.0.tgz#6d4b054ef5fe879ba60867e3bfb455f3f1af5e03"
-  integrity sha512-dghUmNdDGI75gu+mDYHIsJEPQqnWnzrw+ly4GCBX3mgUEk01sGarGNvIp5sNc671xxmZtbGlIttgNQbINWV5Dg==
+gatsby-theme-buzzing@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.npmjs.org/gatsby-theme-buzzing/-/gatsby-theme-buzzing-0.12.1.tgz#95918bb578ca913f4c7e62d3a1747f52939bea1c"
+  integrity sha512-c4fVR38tIP8d7U/FVHZ/sKa22IwMpxfp6/y03U8/adkInJyATb6/iUkne8Dnup78h4/MAZGsKvC+BMjSdcaEfA==
   dependencies:
     fs-extra "^9.0.1"
     gatsby-plugin-emotion "^4.3.10"
     gatsby-plugin-feed "^2.7.0"
     gatsby-plugin-sitemap "^2.8.0"
     gatsby-theme-i18n-react-i18next "^1.0.4"
-    gatsby-theme-timeline "^0.1.93"
+    gatsby-theme-timeline "^0.1.97"
     gatsby-transformer-json "^2.4.14"
     path "^0.12.7"
     theme-ui "^0.4.0-rc.5"
@@ -7033,10 +7033,10 @@ gatsby-theme-i18n@^1.0.4:
     gatsby-plugin-react-helmet "^3.3.10"
     react-helmet "^6.1.0"
 
-gatsby-theme-timeline@^0.1.93:
-  version "0.1.93"
-  resolved "https://registry.npmjs.org/gatsby-theme-timeline/-/gatsby-theme-timeline-0.1.93.tgz#af7377afebb494c4a1a352116f514394b3bb59cf"
-  integrity sha512-AQLsoMFFEUULu6tdQ7sX8Y7ROZA6WLDT/KslqTbFlRlrhCV0BQ9YuKNoLcnjWPTjOdXMK5a/JICHPDINeQf/Vw==
+gatsby-theme-timeline@^0.1.97:
+  version "0.1.97"
+  resolved "https://registry.npmjs.org/gatsby-theme-timeline/-/gatsby-theme-timeline-0.1.97.tgz#4fea44810af5112560510b980f97e9754542f8c2"
+  integrity sha512-hvQpaKu8Q0te7KiFMN+wpH5YWW5H44U5Dze4RS6nBITe1lgq8JaCtplqwOHvFJna6vV61yIgV6RBy5yw2ORhIw==
   dependencies:
     "@theme-ui/prism" "^0.4.0-rc.5"
     date-fns "^2.16.1"
@@ -9328,7 +9328,7 @@ load-json-file@^2.0.0:
 
 load-script@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
   integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
 
 loader-fs-cache@^1.0.0:
@@ -9797,7 +9797,7 @@ media-typer@0.3.0:
 
 memoize-one@^5.1.1:
   version "5.1.1"
-  resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
   integrity sha512-HKeeBpWvqiVJD57ZUAsJNm71eHTykffzcLZVYWiVfQeI1rJtuEaS7hQiEpWfVVk18donPwJEcFKIkCmPJNOhHA==
 
 memory-fs@^0.4.1:
@@ -12131,7 +12131,7 @@ react-lifecycles-compat@^3.0.4:
 
 react-player@^2.7.2:
   version "2.7.2"
-  resolved "https://registry.npmjs.org/react-player/-/react-player-2.7.2.tgz#aa40690fdd89a3e9e725e13bc4ace9ae88c30142"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.7.2.tgz#aa40690fdd89a3e9e725e13bc4ace9ae88c30142"
   integrity sha512-4MqikwtVAxjDlgYp5Kgnz6Uptj/VpYE4VKvg2hOXlgz4zxorsxjBUE8Y3GUY6vpolEMPjpYIxSr1CP4TNrD1WA==
   dependencies:
     deepmerge "^4.0.0"

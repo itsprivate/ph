@@ -6,6 +6,8 @@ const siteMetadata = {
   shortTitle: "PH热门",
   description: "用中文浏览 Product Hunt 热门App，网站和产品",
   keywords: ["buzzing", "Product Hunt", "热门APP", "发现APP"],
+  telegram: "buzzingcc",
+  telegram_chat_id: "-1001406368978",
   menuLinks: [
     {
       name: "每周精选",

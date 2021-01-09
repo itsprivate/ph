@@ -7076,7 +7076,11 @@ gatsby-theme-i18n@^1.0.4:
 
 gatsby-theme-timeline@^0.2.10:
   version "0.2.10"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/gatsby-theme-timeline/-/gatsby-theme-timeline-0.2.10.tgz#b900b75588ec5ca65dc75d56169020da5e220ce9"
+=======
+  resolved "https://registry.yarnpkg.com/gatsby-theme-timeline/-/gatsby-theme-timeline-0.2.10.tgz#b900b75588ec5ca65dc75d56169020da5e220ce9"
+>>>>>>> 901d2fd1dd9d220141d47300df65c7a4e484168f
   integrity sha512-OU14fem6R/bJp1ABT6Q5NAP677606BP/i2WuYadHpS2nkT00wwNfvP7htunFRqAEe/eVgWeX9h8W32lZOoFLrQ==
   dependencies:
     "@theme-ui/prism" "^0.4.0-rc.5"

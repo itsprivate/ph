@@ -1,6 +1,6 @@
 const siteMetadata = {
   siteUrl: "https://ph.buzzing.cc",
-  author: "Product Hunt",
+  author: "Buzzing.cc",
   locale: "zh",
   title: "Product Hunt 热门",
   shortTitle: "PH热门",

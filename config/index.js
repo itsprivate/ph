@@ -13,6 +13,18 @@ const siteMetadata = {
       name: "每周精选",
       url: "/issues",
     },
+  ],
+  subscriptions: [
+    {
+      name: "Twitter @buzzingcc",
+      url: "https://twitter.com/buzzingcc",
+      external: true,
+    },
+    {
+      name: "Telegram @buzzingcc",
+      url: "https://t.me/buzzingcc",
+      external: true,
+    },
     {
       name: "RSS",
       url: "/rss.xml",
@@ -38,11 +50,6 @@ const siteMetadata = {
           name: "Weekly Selection",
           url: "/en/issues",
         },
-        {
-          name: "RSS",
-          url: "/en/rss.xml",
-          prefetch: false,
-        },
       ],
     },
     {
@@ -55,11 +62,6 @@ const siteMetadata = {
         {
           name: "每週精選",
           url: "/zh-Hant/issues",
-        },
-        {
-          name: "RSS",
-          url: "/zh-Hant/rss.xml",
-          prefetch: false,
         },
       ],
     },

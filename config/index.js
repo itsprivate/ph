@@ -37,6 +37,10 @@ const siteMetadata = {
       url: `https://www.producthunt.com/`,
       external: true,
     },
+    {
+      name: "Buzzing",
+      url: "https://www.buzzing.cc/",
+    },
   ],
   localize: [
     {

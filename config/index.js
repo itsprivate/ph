@@ -69,6 +69,19 @@ const siteMetadata = {
         },
       ],
     },
+    {
+      locale: "ja",
+      title: "Product Hunt 人気の作品",
+      shortTitle: "PH人気",
+      description: "人気のProduct Hunt作品を日本語で閲覧",
+      keywords: ["buzzing", "Product Hunt",],
+      menuLinks: [
+        {
+          name: "毎週の選択",
+          url: "/ja/issues",
+        },
+      ],
+    }
   ],
 };
 
